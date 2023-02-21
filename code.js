@@ -13,7 +13,10 @@
 
 let getNumberFive = function() {
   // Your code here
+  return 5;
 }
+console.log(getNumberFive());
+
 
 // ----------------------------------------------------------------------------------------------
 // Exercise Two
@@ -25,8 +28,14 @@ let getNumberFive = function() {
 
 
 let add = function(a, b) {
-  // Your code here
+  
+  return a + b;
 }
+let sum = add(2, 4);
+
+console.log(sum); 
+
+
 
 // ----------------------------------------------------------------------------------------------
 // Exercise Three
@@ -37,8 +46,12 @@ let add = function(a, b) {
 // Write your code here 👇
 
 let multiply = function(x, y, z) {
-  // Your code here
+  return x * y * z
 }
+
+let result = multiply (4, 5 , 6 )
+
+console.log(result);
 
 // ----------------------------------------------------------------------------------------------
 // Exercise Four
@@ -49,7 +62,15 @@ let multiply = function(x, y, z) {
 
 let concatenate = function(message, text) {
   // Your code here
+  return message + text;
 }
+
+let message = "Low battery!" + " ";
+let text = "Please charge now.";
+
+let output = concatenate(message, text);
+console.log(output);
+
 
 // ----------------------------------------------------------------------------------------------
 // Exercise Five
@@ -69,7 +90,12 @@ let concatenate = function(message, text) {
 
 let areaOfTriangle = function(base, height) {
   // Your code here
+ 
+let area =  ( base * height ) / 2;
+
+ return 'The total area of the triangle is ' + area;
 }
+console.log(areaOfTriangle(12, 6));
 
 /* 
 Leave the following code unmodified
